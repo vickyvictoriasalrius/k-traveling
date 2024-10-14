@@ -1,5 +1,4 @@
-import React from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
 const Sidebar = () => {
     const router = useRouter();
@@ -43,7 +42,7 @@ const Sidebar = () => {
                 ))}
             </div>
             <h1 className='text-gray-400 dark:text-slate-500 text-[9px] lg:text-[10px] xl:text-[12px] text-center mb-5'>
-                Developed by<a href='https://github.com/ihwan4rfa' className='py-2 cursor-default cursor-scale lg:cursor-none hover:text-primaryblue' target='_blank'><i class="fa-brands fa-github mx-1"></i>ihwan4rfa</a>
+                Developed by<a href='https://github.com/vickyvictoriasalrius' className='py-2 cursor-default cursor-scale lg:cursor-none hover:text-primaryblue' target='_blank'><i class="fa-brands fa-github mx-1"></i>VVS</a>
             </h1>
         </div>
     )

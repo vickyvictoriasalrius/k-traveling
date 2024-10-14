@@ -14,15 +14,6 @@
 
 ## How to Access Features
 
-### Login as Admin:
-
-- Email: `ihwanarifandi@gmail.com`
-- Password: `ihwan123`
-- Email: `hashirama@gmail.com`
-- Password: `ihwan123`
-- Email: `madara@gmail.com`
-- Password: `ihwan123`
-
 If all the above accounts log in as users, you will not be able to change your account to admin. To access the dashboard as an admin, you must register and select the admin role during registration.
 
 ### Registration:

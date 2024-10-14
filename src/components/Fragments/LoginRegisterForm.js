@@ -270,7 +270,7 @@ const LoginRegisterForm = ({ onSubmitRegister, onSubmitLogin }) => {
                 </div>
                 <div className={`absolute md:top-0 top-1/2 ${loginClicked ? 'md:w-1/2 md:left-1/2' : 'md:w-1/3 md:left-1/3'}  left-0 w-full md:h-full ${loginClicked ? 'h-1/2 translate-y-[0%]' : 'h-1/3 translate-y-[50%]'} overflow-hidden transition-all duration-500 ease-in-out z-30 md:translate-y-[0%] rounded-t-[50px] ${btnClicked ? 'md:-translate-x-[100%] md:rounded-r-[100px] md:rounded-tl-[0px] rounded-r-[0px]' : 'md:translate-x-[0%] md:rounded-l-[100px] md:rounded-tr-[0px] rounded-l-[0px]'}`}>
                     <div className={`bg-black h-full text-white relative -left-[100%] w-[200%] transition-all duration-500 ${btnClicked ? 'translate-x-[50%]' : 'translate-x-[0%]'}`}>
-                        <Image src="/images/hagia-shopia.jpg" className='object-cover w-full h-full opacity-40' width={1000} height={1000} />
+                        <Image src="/images/everest.jpg" className='object-cover w-full h-full opacity-40' width={1000} height={1000} />
                         <div className={`absolute w-1/2 h-full flex flex-col items-center justify-center px-[30px] text-center top-0 transition-all duration-500 ease-in-out translate-x-[0%] gap-2`}>
                             <h1 className="text-lg font-medium lg:text-xl xl:text-2xl">Welcome Back!</h1>
                             <p className="xl:mx-[40px] mx-[10px]">Log in with email and password to start your travel adventure!</p>

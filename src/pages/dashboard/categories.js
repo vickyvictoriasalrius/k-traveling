@@ -1,14 +1,14 @@
-import moment from 'moment/moment'
-import Navbar from '@/components/Fragments/Navbar'
-import Sidebar from '@/components/Elements/Sidebar'
-import React, { useEffect, useState } from 'react'
-import useGetData from '@/Hooks/useGetData'
-import { useSelector } from 'react-redux'
-import { Toaster } from 'react-hot-toast'
+import ModalAddCategory from '@/components/Elements/ModalAddCategory'
 import ModalConfirmDeleteCategory from '@/components/Elements/ModalConfirmDeleteCategory'
 import ModalEditCategory from '@/components/Elements/ModalEditCategory'
-import ModalAddCategory from '@/components/Elements/ModalAddCategory'
+import Sidebar from '@/components/Elements/Sidebar'
+import Navbar from '@/components/Fragments/Navbar'
+import useGetData from '@/Hooks/useGetData'
+import moment from 'moment/moment'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
+import { Toaster } from 'react-hot-toast'
+import { useSelector } from 'react-redux'
 
 const Categories = () => {
     const [categories, setCategories] = useState([]);
@@ -159,22 +159,22 @@ const Categories = () => {
                         duration: 3000,
                         success: {
                             style: {
-                                background: '#334155',
-                                color: 'white'
+                                background: 'gray-100',
+                                color: '#000'
                             },
                             iconTheme: {
-                                primary: '#10b981',
+                                primary: '#34d399',
                                 secondary: 'white'
                             }
                         },
                         error: {
                             style: {
-                                background: '#DF6951',
+                                background: '#ef4444',
                                 color: 'white',
                             },
                             iconTheme: {
                                 primary: 'white',
-                                secondary: '#DF6951'
+                                secondary: '#ef4444'
                             }
                         }
                     }}

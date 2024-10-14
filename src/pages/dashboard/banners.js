@@ -1,14 +1,14 @@
-import moment from 'moment/moment'
-import Navbar from '@/components/Fragments/Navbar'
-import Sidebar from '@/components/Elements/Sidebar'
-import React, { useEffect, useState } from 'react'
 import useGetData from '@/Hooks/useGetData'
+import ModalAddBanner from '@/components/Elements/ModalAddBanner'
+import ModalConfirmDeleteBanner from '@/components/Elements/ModalConfirmDeleteBanner'
 import ModalEditBanner from '@/components/Elements/ModalEditBanner'
+import Sidebar from '@/components/Elements/Sidebar'
+import Navbar from '@/components/Fragments/Navbar'
+import moment from 'moment/moment'
+import Image from 'next/image'
+import { useEffect, useState } from 'react'
 import { Toaster } from 'react-hot-toast'
 import { useSelector } from 'react-redux'
-import ModalConfirmDeleteBanner from '@/components/Elements/ModalConfirmDeleteBanner'
-import ModalAddBanner from '@/components/Elements/ModalAddBanner'
-import Image from 'next/image'
 
 const Banners = () => {
     const [banners, setBanners] = useState([]);
